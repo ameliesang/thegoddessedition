@@ -1,0 +1,86 @@
+body {
+    background-color:rgb(251, 229, 202)
+}
+
+header, .menu,.footer{
+    background-color: rgb(1, 1, 57);
+
+}
+a{
+    color: rgb(251, 229, 202);
+    font-family: 'Cormorant', sans-serif;
+
+}
+.titre{
+text-align: center;
+}
+
+p{
+    color: rgb(1, 1, 57);
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: larger;
+}
+.container{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+
+.titre{
+    font-size: 40px;
+    color: rgb(251, 229, 202);
+    font-family: 'Abril Fatface', sans-serif;
+    
+}
+
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',sans-serif;
+      color:rgb(251, 229, 202)
+  }
+  
+  input,label {
+    margin: 0.5rem;
+    
+  }
+  
+.menu{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+}
+
+.typicalofme,.EIKAL,.bewitched,.bewitchedgoddess{
+    align-items: center;
+    text-align: center;
+}
+
+.footer{
+    color: rgb(251, 229, 202);
+    font-family: 'Cormorant', sans-serif;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+}
+.contacts{ 
+    font-size: 170%;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+    align-items: column;
+    justify-content: space-evenly;
+    margin-left: 0.2rem;
+    padding: 0.3rem;
+}
